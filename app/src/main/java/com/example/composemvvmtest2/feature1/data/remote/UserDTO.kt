@@ -1,5 +1,3 @@
 package com.example.composemvvmtest2.feature1.data.remote
 
-interface API {
-    fun getData(): List<UserDTO>
-}
+data class UserDTO(val name: String?)
